@@ -1,0 +1,15 @@
+config_set: phase2
+block: block4_large_action
+seed: 20260404
+replications: 24
+train_size: 1200
+eval_contexts: 1800
+num_generators: 6
+candidate_set_size: 8
+sweep:
+  name: num_items
+  values: [40, 80, 120, 160]
+casp:
+  reported_lambda: 0.05
+  penalty_variant: library_median
+paper_role: large-action block table and cross-block frontier

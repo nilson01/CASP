@@ -1,0 +1,22 @@
+config_set: phase2
+block: block1_counterexample
+seed: 20260401
+replications: 12
+train_size: 300
+eval_contexts: 600
+num_generators: 2
+num_items: 2
+candidate_set_size: 1
+sweep:
+  name: coupling_strength
+  values: [0.0]
+methods:
+  - stagewise_proxy
+  - plugin_reward
+  - dr_value_only
+  - dr_lcb_beta_0.50
+  - casp_lambda_0.050
+  - ma_style_two_stage_opl
+  - wang_style_downstream_generator
+  - oracle
+paper_role: minimal counterexample table

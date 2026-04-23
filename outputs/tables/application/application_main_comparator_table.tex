@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Comparator & DR value & Burden & ESS & Max $w$ \\
+\midrule
+\CASP{} ($\lambda=0.05$) & 0.831 & 39.6 & 212.9 & 78.3 \\
+DR value only & 0.888 & $6.58\times 10^8$ & 352.4 & 78.8 \\
+DR-LCB ($\beta=0.50$) & 0.888 & $6.58\times 10^8$ & 352.4 & 78.8 \\
+Ma-style OPL & 0.886 & $6.64\times 10^8$ & 405.0 & 78.8 \\
+Wang-style generator & 0.898 & $6.41\times 10^8$ & 572.8 & 77.6 \\
+\bottomrule
+\end{tabular}
+\caption{Main comparator summary for the reconstructed \texttt{MovieLens 1M} application. Higher DR value and ESS are better; lower burden and maximum importance weight are better.}
+\label{tab:mlappmain}
+\end{table}

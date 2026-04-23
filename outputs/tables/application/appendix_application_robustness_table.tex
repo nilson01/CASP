@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}Xrrrrr@{}}
+\toprule
+Variant & CASP DR & CASP burden & DR-only burden & Ma burden & CASP ESS \\
+\midrule
+Baseline cached L=30, rating >=4 & 0.831 & 39.6 & $6.58\times 10^8$ & $6.64\times 10^8$ & 212.9 \\
+Derived L=20 candidate truncation with support refiltering & 0.842 & 24.9 & $7.09\times 10^8$ & $7.44\times 10^8$ & 253.3 \\
+Reward relabeling rating >=5 on accepted support & 0.495 & 40.0 & $6.94\times 10^8$ & $6.94\times 10^8$ & 232.0 \\
+Stage-1 logging smoothing +0.20 on accepted support & 0.824 & 41.1 & $6.68\times 10^8$ & $6.70\times 10^8$ & 158.9 \\
+Stage-2 logging smoothing +0.10 within feasible sets & 0.831 & 39.8 & $6.58\times 10^8$ & $6.63\times 10^8$ & 213.9 \\
+\bottomrule
+\end{tabularx}
+\caption{Full cached MovieLens robustness suite. Each row reruns the full comparator layer on a cached or derived local sensitivity variant of the accepted reconstructed pool.}
+\label{tab:app-robustness-full}
+\end{table}

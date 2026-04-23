@@ -1,0 +1,12 @@
+artifact,description
+block1_counterexample_table.tex,Generated Block 1 table for the main paper.
+crossblock_summary_table.tex,Generated cross-block summary table for the main paper.
+block2_coupling_key.csv,Wide-format Block 2 coupling data for the headline figure.
+frontier_key.csv,Wide-format frontier data for value-burden and stability-burden figures.
+appendix_block1_full_table.tex,Appendix table with the full Block 1 comparator set.
+appendix_block2_full_table.tex,Appendix table with the full Block 2 comparator set.
+appendix_block3_full_table.tex,Appendix table with the full Block 3 comparator set.
+appendix_block4_full_table.tex,Appendix table with the full Block 4 comparator set.
+appendix_block5_full_table.tex,Appendix table with the full Block 5 comparator set.
+appendix_ablation_summary_table.tex,Appendix table summarizing CASP ablations across Blocks 2-5.
+ablation_frontier_key.csv,Wide-format appendix data for ablation frontier diagnostics.

@@ -1,0 +1,15 @@
+config_set: phase2
+block: block5_sample_size
+seed: 20260405
+replications: 24
+eval_contexts: 1800
+num_generators: 4
+num_items: 24
+candidate_set_size: 4
+sweep:
+  name: train_size
+  values: [150, 300, 600, 1200, 2400, 4800]
+casp:
+  reported_lambda: 0.05
+  penalty_variant: library_median
+paper_role: sample-size block table

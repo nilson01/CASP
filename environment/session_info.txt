@@ -1,0 +1,4 @@
+Python code was developed and tested on macOS using Python 3.14 during paper preparation.
+
+The public code uses the Python standard library plus the packages listed in requirements.txt.
+MovieLens raw data are obtained separately from GroupLens and are not committed to this repository.

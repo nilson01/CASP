@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & Avg.\ value & Avg.\ regret & Avg.\ burden \\
+\midrule
+Stagewise & 0.6771 & 0.1524 & 38.90 \\
+Plug-in & 0.7122 & 0.1173 & 44.98 \\
+DR value only & 0.7176 & 0.1119 & 31.27 \\
+DR-LCB 0.50 & 0.7175 & 0.1120 & 31.01 \\
+CASP 0.05 & 0.7147 & 0.1148 & \textbf{26.77} \\
+Ma-style OPL & \textbf{0.7216} & \textbf{0.1079} & 38.73 \\
+Wang-style generator & 0.6960 & 0.1335 & 43.50 \\
+\bottomrule
+\end{tabular}
+\caption{Cross-block averages over Blocks 2--5. Ma-style OPL is the strongest raw-value external comparator on average, while \CASP{} is the lowest-burden learned selector.}
+\label{tab:crossblock-summary}
+\end{table}

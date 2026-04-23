@@ -1,0 +1,16 @@
+config_set: phase2
+block: block3_support
+seed: 20260403
+replications: 36
+train_size: 900
+eval_contexts: 1800
+num_generators: 4
+num_items: 24
+candidate_set_size: 4
+sweep:
+  name: logging_skew
+  values: [0.0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 3.0]
+casp:
+  reported_lambda: 0.05
+  penalty_variant: library_median
+paper_role: support-stress block table and cross-block frontier

@@ -1,0 +1,20 @@
+dataset: movielens_1m_reconstructed
+reported_processed_dataset: movielens_1m_reconstructed_generator2_support_v2_fix1
+suite_name: tors_full_movielens_1m_rebalanced_v2_eps0p10_tau1p00
+context_limit: 25000
+candidate_set_size: 30
+positive_rating_threshold: 4
+holdout_fraction: 0.20
+stage1_exploration_epsilon: 0.10
+stage1_temperature: 1.00
+stage2_temperature: 0.45
+min_stage2_mass: 0.03
+full_replications: 20
+casp_reported_lambda: 0.05
+dr_lcb_reported_beta: 0.50
+generators:
+  - popularity_head
+  - genre_match
+  - collaborative_neighbor
+  - long_tail_explorer
+paper_role: main reconstructed MovieLens comparator table and policy-delta figure

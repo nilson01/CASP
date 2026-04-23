@@ -1,0 +1,9 @@
+config_set: phase2_block5_precision
+block: block5_sample_size
+seed: 20260405
+replications: 48
+eval_contexts: 1800
+sweep:
+  name: train_size
+  values: [600, 1200, 2400, 4800]
+paper_role: appendix precision addendum for Block 5

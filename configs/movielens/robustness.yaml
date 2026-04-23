@@ -1,0 +1,11 @@
+dataset: movielens_1m_reconstructed
+base_suite: tors_full_movielens_1m_rebalanced_v2_eps0p10_tau1p00
+suite_name: tors_robustness_full_v1
+replications: 20
+variants:
+  - baseline_cached_L30_rating_ge4
+  - derived_L20_candidate_truncation
+  - reward_relabeling_rating_ge5
+  - stage1_logging_smoothing_plus_0p20
+  - stage2_logging_smoothing_plus_0p10
+paper_role: appendix MovieLens robustness table

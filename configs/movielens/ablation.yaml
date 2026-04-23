@@ -1,0 +1,9 @@
+dataset: movielens_1m_reconstructed
+base_suite: tors_full_movielens_1m_rebalanced_v2_eps0p10_tau1p00
+casp_lambda: 0.05
+ablation_modes:
+  - normalized_full
+  - normalized_stage1_only
+  - normalized_stage2_only
+  - raw_full
+paper_role: appendix application CASP ablation table

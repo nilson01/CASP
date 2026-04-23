@@ -1,0 +1,16 @@
+artifact,description
+application_main_comparator_table.tex,"Main MovieLens comparator table with burden, ESS, and max-weight diagnostics."
+appendix_application_full_comparator_table.tex,Full application comparator table with all reference rows.
+appendix_application_ablation_table.tex,Application CASP ablation table.
+appendix_application_lambda_sensitivity_table.tex,CASP lambda-sensitivity table.
+appendix_application_weight_diagnostics_table.tex,ESS and max-weight diagnostics table.
+appendix_application_support_violation_table.tex,Off-support burden-floor and generator-support diagnostic table.
+appendix_application_support_table.tex,Application support and logging diagnostics.
+appendix_application_provenance_table.tex,Application provenance and run-manifest table.
+appendix_application_robustness_table.tex,Full cached MovieLens robustness table.
+appendix_reproducibility_audit_table.tex,"Reproducibility audit mapping paper assets to source data, scripts, and run roots."
+frontier_key.csv,Application value-burden frontier CSV used by pgfplots.
+lambda_sensitivity.csv,CASP lambda sensitivity CSV.
+policy_delta_generator_shares.csv,Generator-level policy delta CSV.
+support_violation_diagnostics.csv,Floor-implied off-support mass by selector.
+stage1_zero_support_profile.csv,Generator-level zero-support and selection-share profile.

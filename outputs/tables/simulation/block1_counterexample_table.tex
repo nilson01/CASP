@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & Value & Regret & Burden \\
+\midrule
+Stagewise & 0.2083 & 0.6417 & 2.00 \\
+DR value only & 0.8500 & 0.0000 & 2.00 \\
+CASP 0.05 & 0.8500 & 0.0000 & 2.00 \\
+Ma-style OPL & 0.8500 & 0.0000 & 2.00 \\
+Wang-style generator & 0.8500 & 0.0000 & 2.00 \\
+Oracle & 0.8500 & 0.0000 & 2.00 \\
+\bottomrule
+\end{tabular}
+\caption{Block 1 counterexample. The stagewise proxy selects the wrong generator, while every end-to-end learner recovers the optimum.}
+\label{tab:block1-counterexample}
+\end{table}
